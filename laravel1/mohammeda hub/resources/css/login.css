@@ -1,0 +1,49 @@
+/* resources/css/login.css */
+body {
+    background: linear-gradient(to right, #4facfe, #00f2fe); /* Gradient background */
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+    padding: 2rem; /* Padding around the form */
+    max-width: 400px; /* Limit the width of the form */
+    margin: auto; /* Center the form */
+}
+
+h1 {
+    color: #333; /* Darker text color for the title */
+    font-size: 2rem; /* Larger font size for the title */
+}
+
+input {
+    border: 1px solid #d1d5db; /* Light gray border */
+    border-radius: 5px; /* Rounded corners for inputs */
+    padding: 0.75rem; /* Increased padding inside inputs */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input:focus {
+    border-color: #3b82f6; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    background-color: #3b82f6; /* Blue background for button */
+    color: white; /* White text color */
+    padding: 0.75rem 1.5rem; /* Increased padding for button */
+    border-radius: 5px; /* Rounded corners for button */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+}
+
+.description {
+    padding: 2rem; /* Padding for the description */
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
