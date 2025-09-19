@@ -5,9 +5,11 @@
 +import './Dashboard.css';
 
  const Dashboard: React.FC = () => {
+ }
 @@ .. @@
 
    return (
+   )
 -    <div>
 -      <header style={{ backgroundColor: '#f8f9fa', padding: '10px', borderBottom: '1px solid #ccc' }}>
 -        <h1>Dashboard</h1>
