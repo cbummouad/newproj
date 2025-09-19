@@ -23,6 +23,29 @@
 -      <main style={{ padding: '20px' }}>
 -        <Outlet />
 -      </main>
+    <div className="dashboard-container">
+      <header className="dashboard-header">
+        <div className="header-content">
+          <div className="header-left">
+            <h1 className="dashboard-title">Dashboard</h1>
+            <nav className="dashboard-nav">
+              <Link to="/dashboard/users" className="nav-link">
+                <span className="nav-icon">👥</span>
+                Users
+              </Link>
+            </nav>
+          </div>
+          <button onClick={logout} className="logout-button">
+            <span className="logout-icon">🚪</span>
+            Logout
+          </button>
+        </div>
+      </header>
+      <main className="dashboard-main">
+        <div className="main-content">
+          <Outlet />
+        </div>
+      </main>
 +    <div className="dashboard-container">
 +      <header className="dashboard-header">
 +        <div className="header-content">

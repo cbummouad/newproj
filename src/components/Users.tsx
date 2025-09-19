@@ -1,10 +1,32 @@
 import React, { useState } from 'react';
 import type { User } from '../types/User';
 import './Users.css';
+import './Users.css';
 
 const Users: React.FC = () => {
 
   return (
+    <div className="users-container">
+      <div className="users-header">
+        <h2>Users Management</h2>
+        <p>Manage your application users</p>
+      </div>
+      
+      <div className="users-table-container">
+        <table className="users-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {users.map(user => (
+              <tr key={user.id}>
+                <td>{user.id}</td>
+                <td>{user.name}</td>
     <div className="users-container">
       <div className="users-header">
         <h2>Users Management</h2>
