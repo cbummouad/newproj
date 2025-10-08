@@ -1,0 +1,7 @@
+- [x] Import necessary dependencies: useMutation, useQuery, axios, useAuth, URL from App
+- [x] Add state for clientRoleId
+- [x] Fetch all roles using useQuery to find Client role id
+- [x] Add validateForm function for checkout form
+- [x] Add addClientMutation using useMutation
+- [x] Modify handleConfirm to use mutation instead of fetch, with proper userData
+- [x] Handle success and error in mutation
